@@ -4,6 +4,7 @@ void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
     home: Scaffold(
+      backgroundColor: Colors.blueGrey,
       appBar: AppBar(
         title: Center(child: Text('I am rich')),
         backgroundColor: Colors.blueGrey[900],
